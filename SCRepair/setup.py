@@ -11,7 +11,7 @@ setup(
     install_requires=[
         'py-solc == 3.2.0', 'Logbook == 1.4.1', 'deap',
         'attrs == 18.2.0', 'docker == 3.7.2', 'numpy == 1.21.6',
-        'matplotlib'
+        'matplotlib == 3.5'
     ],
     extras_require={'dev': ['pylint', 'mypy', 'yapf']},
     entry_points={
